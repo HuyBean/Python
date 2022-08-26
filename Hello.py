@@ -42,4 +42,17 @@ print(type(frac1))
 #complex number
 c = complex(1, 2)
 print(c)
+print(c.real)
+print(c.imag)
 print(type(c))
+print(type(c.real))
+print(type(c.imag))
+
+#math lib
+
+import math
+print(math.sqrt(16))
+print(math.trunc(3.9))
+print(math.gcd(6,4))
+print(math.fabs(-25.6))
+print(math.pow(5,2))
